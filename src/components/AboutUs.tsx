@@ -5,7 +5,7 @@ const AboutUs = () => {
 
     return (
         <div>
-            About
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, possimus.
         </div>
     );
 };

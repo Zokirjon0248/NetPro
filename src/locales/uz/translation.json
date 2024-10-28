@@ -1,11 +1,11 @@
 {
-    "title": "Kasbiy rivojlanish uchun o’quv kurslar",
+    "heroTitle": "Kasbiy rivojlanish uchun o’quv kurslar",
     "navText": {
         "text1": "Kurs haqida",
         "text2": "Biz haqimizda",
-        "text3": "O’quvchilar fikri",
         "text4": "Kontakt"
-    }
+    },
+       "heroP": "Bizning it-kasbiy tayyorgarlik kursimizga yozilish orqali siz martaba istiqbollarini oshirishi mumkin bo'lgan sanoat tomonidan tan olingan sertifikatlarni olish imkoniyatiga ega bo'lasiz."
 }
 
 

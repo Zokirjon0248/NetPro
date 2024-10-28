@@ -1,11 +1,11 @@
 {
-    "title": "Training courses for professional development",
+    "heroTitle": "Training courses for professional development",
     "navText": {
         "text1": "About the Course",
         "text2": "About Us",
-        "text3": "Student Reviews",
         "text4": "Contact"
-    }
+    },
+      "heroP": "By enrolling in our IT professional training course, you will have the opportunity to obtain industry-recognized certificates that can enhance your career prospects."
 }
 
 
