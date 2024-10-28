@@ -7,6 +7,9 @@ export default {
 	],
 	theme: {
 	  extend: {
+		backgroundImage: {
+			'custom-gradient': 'linear-gradient(114.23deg, #61B895 -62.2%, #149ED5 29.07%, #FF1CF7 111.62%)',
+		  },	
 		container: {
 		  center: true, 
 		  padding: {

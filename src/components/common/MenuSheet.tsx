@@ -22,7 +22,7 @@ export default function MenuSheet() {
           <span className="sr-only">Menyuni ochish</span>
         </button>
       </SheetTrigger>
-      <SheetContent aria-label="Main Menu"> {/* Tavsifni olib tashlash */}
+      <SheetContent aria-label="Main Menu"> 
         <SheetHeader>
           <SheetTitle className="flex items-center justify-between space-x-4">
             <div className="flex items-center">
