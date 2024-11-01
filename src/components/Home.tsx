@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
 import LoginDialog from "./LoginDialog";
+import SliderComponent from "./SliderComponent";
 
 const Home = () => {
     const { t } = useTranslation();
     return (
-        <main className="container py-[60px] lg:py-[80px]">
+        <main className="container py-[60px] lg:py-[80px] overflow-hidden">
             <div className="flex justify-between items-center flex-col lg:flex-row">
                 <div className="flex items-center  justify-center lg:justify-between gap-4 lg:gap-2 flex-col lg:flex-row ">
                     <div className=" flex flex-col  lg:w-[550px] xl:w-[667px]">
@@ -16,7 +17,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="mt-5" >
-                    <img className="w-[447px] h-auto" src="/heroImage.png" width={447} height={438} alt="" />
+                    <img className="w-[600px] h-auto" src="/heroImage.png" width={600} height={438} alt="" />
                     <div className="inline-block md:hidden">
                         <LoginDialog />
                     </div>
@@ -24,6 +25,8 @@ const Home = () => {
 
 
             </div>
+
+            <SliderComponent  />
         </main >
     )
 }

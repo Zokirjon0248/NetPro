@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -63,4 +64,24 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+
+
+
+.swiper {
+  width: 450px;
+  height: 300px;
+}
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background-color: #15182F;
+  border: 2px solid black;
+}
+.swiper-slide:nth-child(2) {
+  background-color: white;
 }
